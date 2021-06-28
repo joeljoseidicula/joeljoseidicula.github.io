@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Noto Sans';
+  src: url("../assets/fonts/NotoSans.eot");
+  src: url("../assets/fonts/NotoSans.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/NotoSans.woff2") format("woff2"), url("../assets/fonts/NotoSans.woff") format("woff"), url("../assets/fonts/NotoSans.ttf") format("truetype"), url("..assets/fonts/NotoSans.svg#NotoSans") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.title {
+  text-align: center;
+  font-family: "Noto Sans";
+  font-size: 3vw;
+  text-decoration: underline;
+}
+
+.paragraph {
+  text-align: center;
+  font-family: "Noto Sans";
+  font-size: 3vw;
+}
+
+body {
+  background-image: url("../assets/img/back.jpg");
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*# sourceMappingURL=style.css.map */
