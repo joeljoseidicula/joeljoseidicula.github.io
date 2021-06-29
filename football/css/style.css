@@ -7,24 +7,30 @@
   font-display: swap;
 }
 
-.title {
-  text-align: center;
-  font-family: "Noto Sans";
-  font-size: 3vw;
-  text-decoration: underline;
-}
-
-.paragraph {
-  text-align: center;
-  font-family: "Noto Sans";
-  font-size: 3vw;
-}
-
 body {
   background-image: url("../assets/img/back.jpg");
   color: white;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.main {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  text-align: center;
+  font-family: "Noto Sans";
+  font-size: 7vw;
+  text-decoration: underline;
+  margin-bottom: 2em;
+}
+
+.paragraph {
+  margin: 5vw;
+  text-align: justify;
+  font-family: "Noto Sans";
+  font-size: 3vw;
 }
 /*# sourceMappingURL=style.css.map */
